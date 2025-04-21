@@ -10,10 +10,10 @@ export default async function Home() {
 
   return (
     <div>
-      <nav className="flex items-center justify-between border-b border-b-slate-200 bg-black px-4 py-2 shadow-sm">
+      <nav className="flex items-center justify-between border-b border-b-slate-200 bg-black px-4 py-4 shadow-sm">
         <Link
           href="/"
-          className="text-xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent"
+          className="text-2xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent"
         >
           Supabill
         </Link>
@@ -21,7 +21,7 @@ export default async function Home() {
           Try Supabill
         </button>
       </nav>
-      <main className="bg-black">
+      <main className="bg-black pt-36">
         <div className="flex w-full items-center justify-center">
           <div className="flex w-full max-w-5xl flex-col gap-4 px-4">
             <h1 className="text-6xl font-bold text-white text-center">
@@ -30,7 +30,7 @@ export default async function Home() {
             <p className="text-lg text-gray-400 text-center">
               Streamline your billing with simplicity, affordability, and zero headaches —because you deserve it
             </p>
-            <div className="flex w-full items-center justify-center">
+            <div className="flex w-full items-center justify-center py-6">
               <button className="rounded-md bg-gray-800 px-4 py-2 text-white hover:bg-gray-700">
                 Try Supabill 🎉
               </button>
@@ -48,7 +48,7 @@ export default async function Home() {
               className="w-full rounded-lg shadow-lg"
             />
           </div>
-          <Marquee pauseOnHover={true} className="text-white bg-purple-500">
+          <Marquee pauseOnHover={true} className="text-white bg-purple-500 py-6">
             <div className="flex items-center gap-8">
               <div className="flex items-center gap-2">
                 <span className="text-3xl">* Edaikazhinadu Coffee House</span>
@@ -70,7 +70,7 @@ export default async function Home() {
         </div>
 
         {/* a statement about supabill */}
-        <div className="flex w-full items-center justify-center">
+        <div className="flex w-full items-center justify-center mt-24">
           <div className="flex w-full max-w-5xl flex-col gap-4 px-4">
             <h1 className="text-5xl font-bold text-white text-center">
               Billing So Simple, Competitors Are Jealous
@@ -78,7 +78,7 @@ export default async function Home() {
             <p className="text-lg text-gray-400 text-center">
               Streamline your billing with simplicity, affordability, and zero headaches —because you deserve it
             </p>
-            <div className="flex w-full items-center justify-center">
+            <div className="flex w-full items-center justify-center mt-4">
               <button className="rounded-md bg-gray-800 px-4 py-2 text-white hover:bg-gray-700">
                 Get Supabill
               </button>
